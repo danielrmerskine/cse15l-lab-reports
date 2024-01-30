@@ -1,4 +1,5 @@
 ## CSE 15L Lab Report 2
+### Part 1
 #### ChatServer Code:
 ```
 import java.io.BufferedWriter;
@@ -59,12 +60,26 @@ class ChatServer {
 
 #### Screenshot 1:
 ![screenshot of shot conversation](week3image1.png)
-* The only method that runs is handleRequest(). The only other method in my code is the main() method which only runs when starting the server. handleRequest() runs each time you add a chat.
-* The only relevant argument in handleRequest() is URI url, which is /add-message?s=yoooo&user=john. messageHistory is equal to the entire chat history. There are other relevant fields to this method, but no others ones for this class.
-* "john: yoooo" was added to messageHistory with this specific request and is the only class field that is changed with this specific request.
+* The only method that runs is `handleRequest()`. The only other method in my code is the `main()` method which only runs when starting the server. `handleRequest()` runs each time you add a chat.
+* The only relevant argument in `handleRequest()` is `URI url`, which is `/add-message?s=yoooo&user=john`. `messageHistory` is equal to the entire chat history. There are other relevant fields to this method, but no others ones for this class.
+* `"john: yoooo"` was added to `messageHistory` with this specific request and is the only class field that is changed with this specific request.
 
 #### Screenshot 2:
 ![screenshot of very short conversation](week3image2.png)
-* Again, the only method that runs is handRequest(). The only other method in my code is the main() method which only runs when starting the server. handleRequest() runs each time you add a chat.
-* The only relevant argument in handleRequest() is URI url, which is /add-message?s=straight chillin&user=beth. messageHistory is equal to the entire chat history. There are other relevant fields to this method, but no others ones for this class.
-* "beth: straight chillin" was added to messageHistory with this specific request and is the only class field that is changed with this specific request.
+* Again, the only method that runs is `handleRequest()`. The only other method in my code is the `main()` method which only runs when starting the server. `handleRequest()` runs each time you add a chat.
+* The only relevant argument in `handleRequest()` is `URI url`, which is `/add-message?s=straight chillin&user=beth`. `messageHistory` is equal to the entire chat history. There are other relevant fields to this method, but no others ones for this class.
+* `"beth: straight chillin"` was added to `messageHistory` with this specific request and is the only class field that is changed with this specific request.
+
+### Part 2
+* Absolute path to the Private Key for your SSH key for logging into `ieng6` on my Computer
+![screenshot of Absolute path to the Private Key for your SSH key for logging into `ieng6` on my Computer](week3image3.png)
+
+* Absolute path to the Public Key for your SSH key for logging into `ieng6` on `ieng6`'s File System
+![screenshot of Absolute path to the Public Key for your SSH key for logging into `ieng6` on `ieng6`'s File System](week3image4.png)
+
+* Terminal Interaction where I logged in without being asked for a Password
+![screenshot of Terminal Interaction where I logged in without being asked for a Password](week3image5.png)
+
+### Part 3
+
+Something I did not know anything about before lab in weeks 2 and 3 was how to log into and use my `ieng6` account. This is the first class or project that has involved me logging into and using another computer remotely. I have used Google Colab in the past, which from what I understand is very similar to using my `ieng6` account but I am using a Google computer and not a UCSD computer. I find this all very interesting and look forward to seeing how we use `ieng6` in the future!
