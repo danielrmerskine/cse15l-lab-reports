@@ -1,4 +1,5 @@
 ## CSE 15L Lab Report 2
+#### ChatServer Code:
 ```
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -56,6 +57,9 @@ class ChatServer {
 }
 ```
 
-![image] (week3image1)
+#### Screenshot 1:
+![screenshot of shot conversation](week3image1.png)
+* 
 
-![image] (week3image2)
+#### Screenshot 2:
+![screenshot of very short conversation](week3image2.png)
