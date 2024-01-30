@@ -59,7 +59,12 @@ class ChatServer {
 
 #### Screenshot 1:
 ![screenshot of shot conversation](week3image1.png)
-* 
+* The only method that runs is handleRequest(). The only other method in my code is the main() method which only runs when starting the server. handleRequest() runs each time you add a chat.
+* The only relevant argument in handleRequest() is URI url, which is /add-message?s=yoooo&user=john. messageHistory is equal to the entire chat history. There are other relevant fields to this method, but no others ones for this class.
+* "john: yoooo" was added to messageHistory with this specific request and is the only class field that is changed with this specific request.
 
 #### Screenshot 2:
 ![screenshot of very short conversation](week3image2.png)
+* Again, the only method that runs is handRequest(). The only other method in my code is the main() method which only runs when starting the server. handleRequest() runs each time you add a chat.
+* The only relevant argument in handleRequest() is URI url, which is /add-message?s=straight chillin&user=beth. messageHistory is equal to the entire chat history. There are other relevant fields to this method, but no others ones for this class.
+* "beth: straight chillin" was added to messageHistory with this specific request and is the only class field that is changed with this specific request.
