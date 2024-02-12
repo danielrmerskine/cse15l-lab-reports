@@ -243,8 +243,8 @@ This example shows the location of the string `"help"`. As seen, it is on line 2
 
 ### Work Cited
 OpenAI. (2024). *ChatGPT* (Feb 12 version)[Large language model]. [https://chat.openai.com/chat](https://chat.openai.com/chat)
-Prompt: `find 4 interesting command-line options or alternate ways to use the command "grep"`\
-Output:\
+Prompt: `find 4 interesting command-line options or alternate ways to use the command "grep"`<br>
+Output:<br>
 ```
 The grep command is a versatile tool used in Unix and Linux environments for searching within files for lines that match a particular pattern. Here are four interesting command-line options or alternate ways to use grep that showcase its flexibility and power:
 
