@@ -240,3 +240,26 @@ grep -n "help" technical/biomed/1468-6708-3-1.txt
 281:        treatment to help underweight women achieve normal weight
 ```
 This example shows the location of the string `"help"`. As seen, it is on line 281.
+
+### Work Cited
+OpenAI. (2024). *ChatGPT* (Feb 12 version)[Large language model]. [https://chat.openai.com/chat](https://chat.openai.com/chat)
+Prompt: `find 4 interesting command-line options or alternate ways to use the command "grep"`
+Output:
+```
+The grep command is a versatile tool used in Unix and Linux environments for searching within files for lines that match a particular pattern. Here are four interesting command-line options or alternate ways to use grep that showcase its flexibility and power:
+
+Recursive Search with -r or -R:
+
+This option allows grep to search through all files in the specified directory and all of its subdirectories. For example, grep -r "search_pattern" /path/to/directory searches for "search_pattern" in all files under /path/to/directory. The -R option is similar, but it follows all symbolic links as well.
+Invert Match with -v:
+
+The -v option inverts the search, meaning it will select lines that do not match the given pattern. This can be particularly useful when you want to exclude certain lines from your output. For example, grep -v "pattern" file.txt will display all lines in file.txt that do not contain "pattern".
+Counting Occurrences with -c:
+
+Instead of showing the matching lines, -c will count how many lines match the pattern. This can be useful for quickly determining the presence or frequency of certain patterns without needing to manually count the output lines. For example, grep -c "pattern" file.txt gives you a count of how many lines in file.txt match "pattern".
+Show Line Number with -n:
+
+This option prefixes each matching line with the line number in its file. This is particularly useful when you need to know the location of the text you're searching for, not just its existence or content. For example, grep -n "pattern" file.txt will list matching lines along with their line numbers.
+These options demonstrate the adaptability of grep for various tasks, from simple text searches to more complex operations like recursive directory searches and pattern exclusions. Combining these options can further enhance grep's utility, making it an indispensable tool for text processing and data analysis in command-line environments.
+```
+I changed the output by reading the information and applying the concepts I learned to the docsearch repository. I figured out how to create two examples from the given command-line options of `grep` and documented the output above.
