@@ -242,7 +242,7 @@ grep -n "help" technical/biomed/1468-6708-3-1.txt
 This example shows the location of the string `"help"`. As seen, it is on line 281.
 
 ### Work Cited
-OpenAI. (2024). *ChatGPT* (Feb 12 version)[Large language model]. [https://chat.openai.com/chat](https://chat.openai.com/chat)
+OpenAI. (2024). *ChatGPT* (Feb 12 version)[Large language model]. [https://chat.openai.com/chat](https://chat.openai.com/chat) <br>
 Prompt: `find 4 interesting command-line options or alternate ways to use the command "grep"`<br>
 Output:<br>
 ```
